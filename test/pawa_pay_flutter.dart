@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:pawa_pay_flutter/repository.dart';
+import 'package:pawa_pay_flutter/pawa_pay_flutter.dart';
 
 /// A list of phone numbers and their corresponding expected status messages.
 /// The keys of each map are 'number' and 'message', and the values are the phone number

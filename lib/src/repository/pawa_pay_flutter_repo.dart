@@ -1,15 +1,11 @@
-library pawa_pay_flutter;
+//The PowerPayRepo class
+import '../api/api_endpoint.dart';
 
-import 'src/api_endpoint.dart';
-
-export './src/api_endpoint.dart';
-
-//The Purchase class
-class Purchase {
+class PowerPayRepo {
   final String apiKey;
   final bool debugeMode;
-  Purchase({this.debugeMode = true, required this.apiKey})
-      : _pawaPayRepo = PawaPayRepo(
+  PowerPayRepo({this.debugeMode = true, required this.apiKey})
+      : _pawaPayRepo = PawaPayApi(
           apiKey: apiKey,
           debugMode: debugeMode,
         );
@@ -47,5 +43,5 @@ class Purchase {
     return '';
   }
 
-  final PawaPayRepo _pawaPayRepo;
+  final PawaPayApi _pawaPayRepo;
 }

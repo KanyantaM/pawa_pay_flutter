@@ -4,11 +4,11 @@ import 'package:http/http.dart' as http;
 
 import 'package:uuid/uuid.dart';
 
-class PawaPayRepo {
+class PawaPayApi {
   final String apiKey;
   final bool debugMode;
 
-  PawaPayRepo({required this.debugMode, required this.apiKey});
+  PawaPayApi({required this.debugMode, required this.apiKey});
 
   /// Initiates a deposit using the provided phone number and amount.
   ///
