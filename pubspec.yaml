@@ -1,7 +1,7 @@
 name: pawa_pay_flutter
 description: "Allowing flutter developers to easily add mobile money payments to thier flutter apps"
 version: 0.0.1
-homepage:
+repository: https://github.com/KanyantaM/pawa_pay_flutter
 
 environment:
   sdk: '>=3.0.6 <4.0.0'

@@ -1,10 +1,10 @@
-//The PowerPayRepo class
+//The PawaPayRepo class
 import '../api/api_endpoint.dart';
 
-class PowerPayRepo {
+class PawaPayRepo {
   final String apiKey;
   final bool debugeMode;
-  PowerPayRepo({this.debugeMode = true, required this.apiKey})
+  PawaPayRepo({this.debugeMode = true, required this.apiKey})
       : _pawaPayRepo = PawaPayApi(
           apiKey: apiKey,
           debugMode: debugeMode,

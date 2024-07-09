@@ -28,7 +28,7 @@ void main() {
     'checking deposits',
     () async {
       double amount = 100.00;
-      final Purchase purchase = Purchase(apiKey: appToken);
+      final PawaPayRepo purchase = PawaPayRepo(apiKey: appToken);
       for (var testCase in testCases) {
         expect(
           await purchase.customerDeposite(
